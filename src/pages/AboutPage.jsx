@@ -88,7 +88,7 @@ function AboutPage() {
           </div>
           <p className="section-copy md:max-w-md">
             This is the simpler version of my timeline: where I studied, where I worked, and the
-            steps that gradually pushed me toward the direction I now care about most.
+            steps that slowly made my direction clearer.
           </p>
         </div>
 

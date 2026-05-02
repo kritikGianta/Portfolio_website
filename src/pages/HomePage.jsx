@@ -86,7 +86,7 @@ function HomePage() {
               transition={{ delay: 0.2, duration: 0.6 }}
               className="max-w-xl text-sm uppercase tracking-[0.28em] text-mist"
             >
-              Shimla roots. India-shaped perspective. AI/ML as the long-term path.
+              Shimla roots. Different cities. One direction that finally stayed.
             </motion.p>
 
             <motion.div
@@ -516,8 +516,8 @@ function HomePage() {
               <div>
                 <h3 className="section-title">A real signal underneath the motion.</h3>
                 <p className="section-copy mt-4">
-                  This is the one experience block on the home page now. It keeps the landing view
-                  grounded in actual work instead of stacking more project cards here.
+                  I wanted the home page to stay grounded in real work, so this section keeps the
+                  focus on actual experience instead of turning the page into a long project list.
                 </p>
               </div>
 
@@ -550,9 +550,8 @@ function HomePage() {
             <p className="chip">Currently Working On</p>
             <h3 className="section-title mt-6">Where I want the next chapter of the portfolio to go.</h3>
             <p className="section-copy mt-4">
-              Right now, my future work is shaping around three broad directions: intelligent
-              cybersecurity systems, more human-centered AI research, and trust-driven platforms
-              built for real-world complexity.
+              Right now, the next layer of my work is shaping around cybersecurity systems,
+              human-centered AI research, and platforms built around trust and structure.
             </p>
             <div className="mt-6 flex flex-wrap gap-3">
               {futureWork.map((item) => (

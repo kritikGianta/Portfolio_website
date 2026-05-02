@@ -17,11 +17,11 @@ function ProjectsPage() {
       <section className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="chip">Projects</p>
-          <h2 className="section-title mt-5">Browse the work by lens, not just by order.</h2>
+          <h2 className="section-title mt-5">A closer look at the things I have built and the ones I am still shaping.</h2>
         </div>
         <p className="section-copy md:max-w-md">
-          The archive now mixes completed work with clearly marked build directions, so we can show
-          both what you have done and where you are heading next.
+          Some of these are finished, some are still growing, but all of them reflect the kind of
+          problems I enjoy working on.
         </p>
       </section>
 
@@ -115,7 +115,7 @@ function ProjectsPage() {
                       ))}
                     </div>
                     <span className="text-sm text-sand transition group-hover:translate-x-1">
-                      Open detail page
+                      View project
                     </span>
                   </div>
                 </div>
@@ -129,9 +129,7 @@ function ProjectsPage() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="chip">Research Papers</p>
-            <h3 className="section-title mt-5">
-              A separate track for paper-worthy ideas and write-ups.
-            </h3>
+            <h3 className="section-title mt-5">Research ideas I want to take seriously as papers and longer-form work.</h3>
           </div>
         </div>
 

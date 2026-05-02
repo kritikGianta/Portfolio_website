@@ -124,9 +124,8 @@ function ProjectDetailPage() {
           <div className="panel rounded-[28px] p-6">
             <p className="text-xs uppercase tracking-[0.28em] text-mist">My Take</p>
             <p className="mt-4 text-sm leading-7 text-slate-300">
-              I want these project pages to show more than just outputs. I want them to reflect how
-              I think through usefulness, reliability, and whether a model actually feels practical
-              when someone interacts with it.
+              {project.take ||
+                'I want each project here to say something honest about how I think, build, and solve problems.'}
             </p>
             <Link
               to="/projects"

@@ -1,29 +1,29 @@
 export const profile = {
   name: 'Kritik Gianta',
-  title: 'AI and Machine Learning Engineer',
+  title: 'AI/ML Student and System Builder',
   location: 'Bengaluru, India',
   phone: '+91 8968266979',
   email: 'kritikgianta88@gmail.com',
   github: 'https://github.com/kritikGianta',
-  tagline: 'I like building intelligent systems that feel clear, dependable, and genuinely useful.',
+  tagline: 'I like building systems that are intelligent, clear to understand, and useful in practice.',
 };
 
 export const aboutPerspective = {
-  title: 'I am still growing, but I already know the kind of work I want my name attached to.',
+  title: 'I am still early in the journey, but I am clear about the kind of work I want to keep doing.',
   summary:
-    'I see myself as someone shaped by movement, curiosity, and the constant urge to find work that feels meaningful. From growing up across different places to finally finding my direction in AI and machine learning, a lot of my journey has been about learning what truly stays with me.',
+    'A lot of my journey has been about finding the kind of work that feels right to stay with for a long time. Growing up across different places made me adaptable, and studying AI/ML gave that curiosity a direction I genuinely want to keep building on.',
   cards: [
     {
       label: 'What shaped me',
-      text: 'Coming from Shimla and growing up across different parts of India gave me adaptability early. It taught me how to adjust, observe, and stay open to new people, new environments, and new ways of thinking.',
+      text: 'Coming from Shimla and growing up across different parts of India made adaptability a natural part of who I am. It taught me how to settle into new places, pay attention, and stay open to different ways of thinking.',
     },
     {
       label: 'How I work',
-      text: 'I like work that has both depth and purpose. I do not enjoy building just for the sake of saying I built something. I want my work to feel thoughtful, useful, and strong enough to stand on its own.',
+      text: 'I like building things that are practical, understandable, and worth using. I usually care as much about structure and clarity as I do about the final result.',
     },
     {
       label: 'Where I am heading',
-      text: 'The direction is becoming clearer for me: AI that feels intelligent but grounded, systems that can be trusted, and research ideas that can eventually become real-world tools.',
+      text: 'The direction feels clearer now: language systems, explainable AI, trustworthy tools, and research ideas that can eventually become real systems people can use.',
     },
   ],
 };
@@ -68,25 +68,25 @@ export const profileModes = [
   {
     id: 'builder',
     label: 'Builder',
-    title: 'I like making systems feel usable, not just technically correct.',
+    title: 'I like making systems feel usable, not just technically right.',
     description:
-      'I care about how technical decisions turn into something people can actually use without friction.',
+      'I pay attention to how technical choices affect the final experience, not just whether the code works.',
     pulse: ['Product thinking', 'Workflow design', 'Reliable implementation'],
   },
   {
     id: 'researcher',
     label: 'Researcher',
-    title: 'I enjoy the part where experimentation gets sharpened into evidence.',
+    title: 'I enjoy the stage where an idea has to prove itself.',
     description:
-      'A lot of my work sits around NLP, explainability, model behavior, and figuring out what really holds up when tested.',
+      'A lot of my work sits around NLP, explainability, model behavior, and seeing what actually holds up when tested properly.',
     pulse: ['Model evaluation', 'NLP pipelines', 'Iterative experiments'],
   },
   {
     id: 'competitor',
     label: 'Competitor',
-    title: 'I also thrive in fast, high-pressure environments where ideas need to land quickly.',
+    title: 'I also enjoy fast environments where ideas need to land quickly.',
     description:
-      'Hackathons and fast builds taught me how to move quickly without losing focus on the core idea.',
+      'Hackathons and fast builds taught me how to move quickly while still keeping the important parts clear.',
     pulse: ['Hackathons', 'Rapid prototyping', 'Team problem solving'],
   },
 ];
@@ -107,6 +107,8 @@ export const projects = [
       'I fine-tuned XLM-RoBERTa for multilingual SMS classification so the system could handle English, Hindi, and Hinglish messages in a more realistic setting instead of a narrow single-language pipeline.',
       'What mattered to me here was not just raw classification, but making the output feel usable and dependable, especially when the difference between promotional and service messages needs to be surfaced clearly.',
     ],
+    take:
+      'I like this project because it solves a very practical problem and keeps the output simple enough to be useful right away.',
   },
   {
     slug: 'reponexus',
@@ -123,6 +125,8 @@ export const projects = [
       'This project came from a simple frustration: technical debt often feels invisible until it becomes expensive. I wanted to build something that could read repositories more like an engineer, not just a static scanner.',
       'RepoNexus combines local parsing, custom ML scoring, and cloud-based LLM reasoning to audit codebases, surface technical debt, explain why it matters, and suggest clearer next actions for developers.',
     ],
+    take:
+      'This is one of the projects that feels closest to how I like to think: practical engineering problems, strong structure, and AI used where it genuinely helps.',
   },
   {
     slug: 'threatlens',
@@ -139,6 +143,8 @@ export const projects = [
       'ThreatLens is one of the future systems I want to keep building out further.',
       'Right now I want it represented as a clear next direction rather than over-explaining it before the project is fully developed.',
     ],
+    take:
+      'Right now, this project matters more to me as a direction I want to keep growing than as something I want to overstate too early.',
   },
   {
     slug: 'skill-learning-ledger',
@@ -155,6 +161,8 @@ export const projects = [
       'The part I value most in this project is the MySQL design itself. I structured it around normalized entities like skills, resources, study sessions, skill levels, and skill relations so the system stays clean, extensible, and logically consistent.',
       'I used primary keys, foreign keys, referential actions, constraints, indexing, and historical level tracking to make the project feel like a proper DBMS-backed system instead of just a front-end tracker with loosely connected tables.',
     ],
+    take:
+      'What I like most here is the database thinking behind it. The project gave me space to make the structure itself a real part of the work.',
   },
   {
     slug: 'toxic-comment-detector-xai',
@@ -171,6 +179,8 @@ export const projects = [
       'I built this around a fine-tuned DistilBERT model and kept the entire workflow local, because I wanted moderation assistance that feels practical, lightweight, and usable even without depending on external AI services.',
       'What matters most to me in this project is not just classification accuracy, but making the moderation process more transparent through token-level explanations, threshold-aware decisions, fairness checks, and classifier-guided rewrite suggestions.',
     ],
+    take:
+      'I wanted this project to feel less like a model demo and more like something a moderator could actually work with.',
   },
   {
     slug: 'hybrid-quantum-fake-news',
@@ -187,6 +197,8 @@ export const projects = [
       'Evaluated Z, ZZ, and Pauli quantum feature maps on a 2016-sample dataset after reducing features into a 2-qubit representation.',
       'Treated the project as both a classification study and a research exercise in how classical preprocessing can support experimental quantum models.',
     ],
+    take:
+      'I value this one because it let me explore a less familiar area and approach it seriously instead of keeping my work too one-dimensional.',
   },
   {
     slug: 'wellsim',
@@ -204,6 +216,8 @@ export const projects = [
       'I see WellSim as one of the stronger bridges between my research interests and the kind of systems I want to design long term.',
       'Right now it sits in the middle ground between exploration and implementation, which is why I want it represented as a partially developed project rather than a finished build.',
     ],
+    take:
+      'This project feels important to me because it connects research questions with the kind of system design problems I want to keep exploring.',
   },
 ];
 
@@ -379,18 +393,18 @@ export const futureWork = [
     title: 'ThreatLens',
     status: 'Major project direction',
     summary:
-      'A future-facing cybersecurity direction centered on making threat understanding, security monitoring, and response workflows more intelligent, interpretable, and useful for real operational settings.',
+      'A cybersecurity direction I want to keep building around threat understanding, monitoring, and practical response support.',
   },
   {
     title: 'Wellbeing-Aware Recommendation Research',
     status: 'Research paper direction',
     summary:
-      'A research-driven exploration of recommendation systems that feel more human-centered by considering personal wellbeing, long-term outcomes, and safer decision support rather than only short-term optimization.',
+      'A research direction around recommendation systems that pay more attention to wellbeing, long-term outcomes, and safer decision support.',
   },
   {
     title: 'AyurTrust',
     status: 'Research and system direction',
     summary:
-      'A broader trust and traceability concept focused on bringing more transparency, accountability, and confidence into complex supply chains where authenticity and integrity matter deeply.',
+      'A trust and traceability direction focused on making complex supply chains feel more transparent and dependable.',
   },
 ];

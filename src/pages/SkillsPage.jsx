@@ -7,13 +7,13 @@ const personalViews = [
     label: 'How I see my skills',
     title: 'I do not like thinking of skills as numbers.',
     copy:
-      'For me, skills make more sense as areas I keep returning to: learning, building, experimenting, and turning ideas into something people can actually use.',
+      'For me, skills make more sense as areas I keep returning to: learning, building, experimenting, and making things work properly.',
   },
   {
     label: 'How I usually work',
     title: 'I learn best by building, breaking, and refining things in public-facing ways.',
     copy:
-      'That is why my work naturally moves between AI, software systems, research thinking, and product-oriented problem solving instead of staying inside one narrow box.',
+      'That is why my work naturally moves between AI, software systems, research thinking, and product-oriented problem solving instead of staying in one narrow lane.',
   },
 ];
 
@@ -100,11 +100,11 @@ function SkillsPage() {
       <section className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="chip">Skills</p>
-          <h2 className="section-title mt-5">A more personal read of what I bring to the table.</h2>
+          <h2 className="section-title mt-5">A more personal read of how I work and what I keep getting better at.</h2>
         </div>
         <p className="section-copy md:max-w-md">
-          I wanted this section to feel less like a scoreboard and more like a real snapshot of how
-          I think, build, and keep growing.
+          I wanted this section to feel less like a checklist and more like a real snapshot of how
+          I think, learn, and build.
         </p>
       </section>
 
@@ -139,11 +139,11 @@ function SkillsPage() {
             <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
               <div>
                 <p className="chip">My Perspective</p>
-                <h3 className="section-title mt-5">The way I think about my skill set is broader than tools alone.</h3>
+                <h3 className="section-title mt-5">The way I think about my skills is broader than tools alone.</h3>
               </div>
               <p className="max-w-sm text-sm leading-7 text-slate-400">
-                These are not zones or levels. They are the themes that keep showing up in the way
-                I learn, build, and choose the kind of work I want to grow into.
+                These are the themes that keep showing up in the way I learn, build, and choose the
+                kind of work I want to grow into.
               </p>
             </div>
 
@@ -203,7 +203,7 @@ function SkillsPage() {
                 </div>
                 <p className="max-w-sm text-sm leading-7 text-slate-400">
                   This is the more direct layer: the languages, frameworks, data tools, and
-                  engineering systems I have actually worked with so far.
+                  engineering systems I have worked with so far.
                 </p>
               </div>
 
@@ -274,7 +274,7 @@ function SkillsPage() {
                 <div>
                   <p className="chip">What Sits Around The Skills</p>
                   <p className="mt-5 font-display text-3xl tracking-[-0.05em] text-white">
-                    The way I work is shaped by more than just technical practice.
+                    The way I work is shaped by more than technical practice alone.
                   </p>
                 </div>
               </div>

@@ -7,12 +7,11 @@ function FutureWorkPage() {
       <section className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="chip">Future Work</p>
-          <h2 className="section-title mt-5">What I am moving toward next.</h2>
+          <h2 className="section-title mt-5">What I want to keep building next.</h2>
         </div>
         <p className="section-copy md:max-w-md">
-          This section reflects the three directions I genuinely want to keep building out next:
-          intelligent cybersecurity assistance, wellbeing-aware AI research, and trust-focused
-          systems with stronger real-world accountability.
+          These are the directions I want to spend more time on next: better security systems,
+          more human-centered AI research, and tools built around trust and real-world use.
         </p>
       </section>
 
