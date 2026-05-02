@@ -78,7 +78,10 @@ function HomePage() {
               className="font-display text-5xl font-semibold leading-none tracking-[-0.08em] text-white md:text-7xl"
             >
               {profile.name}
-              <span className="mt-3 block text-ember">{profile.title}.</span>
+              <span className="mt-3 block text-ember">{profile.title}</span>
+              <span className="mt-4 block text-sm font-medium uppercase tracking-[0.28em] text-mist md:text-base">
+                {profile.tagline}
+              </span>
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 16 }}

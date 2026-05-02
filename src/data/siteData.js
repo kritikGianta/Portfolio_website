@@ -1,11 +1,11 @@
 export const profile = {
   name: 'Kritik Gianta',
-  title: 'AI/ML Student and System Builder',
+  title: 'AIML Student',
   location: 'Bengaluru, India',
   phone: '+91 8968266979',
   email: 'kritikgianta88@gmail.com',
   github: 'https://github.com/kritikGianta',
-  tagline: 'I like building systems that are intelligent, clear to understand, and useful in practice.',
+  tagline: 'Exploring AI through systems and research',
 };
 
 export const aboutPerspective = {
