@@ -1,6 +1,6 @@
 export const profile = {
   name: 'Kritik Gianta',
-  title: 'AIML Student',
+  title: 'AIML Enthusiast',
   location: 'Bengaluru, India',
   phone: '+91 8968266979',
   email: 'kritikgianta88@gmail.com',
